@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fecce3923494e45beb4c7c44e98a36, type: 3}
+  m_Name: H2a - Encounter raider
+  m_EditorClassIdentifier: 
+  storyText: As you head south you see a group of raiders dragging someone in chains.
+    It sounds like Karla screaming but your focus is snapped back to the immediate
+    concern of a raider running at you with sword bared.
+  actionText: '1) The rage is upon you. Go at the scum with your belt knife.
+
+    2) You can see you can''t win this. Run back to the forest.'
+  image: {fileID: 21300000, guid: 40c8311dd98a9cc4aa41ac59ca5f101e, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 7ad879fabbd59ed45aea00f9570f7e96, type: 2}
+  - {fileID: 11400000, guid: b87427b6a5d9a4a45a486ddd51a00feb, type: 2}

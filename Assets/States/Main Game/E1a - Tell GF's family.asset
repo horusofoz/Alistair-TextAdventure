@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fecce3923494e45beb4c7c44e98a36, type: 3}
+  m_Name: E1a - Tell GF's family
+  m_EditorClassIdentifier: 
+  storyText: 'You rush to Sararh''s house and knock hard on the door calling out for
+    Sarah.
+
+
+    Sarah''s father answers the door scowling until he sees the look on your face.
+
+
+    Without a word he pushes past you and steps out the house.
+
+
+    Taking in the sounds and smells, you see he understands the situation. He turns
+    to you with a look fiercer than you''ve seen there before.
+
+
+    "Thank you for the warning Alistair. Go see to your house. I''ll see to Sarah
+    and my wife"'
+  actionText: 1) Rush home to tell family
+  image: {fileID: 21300000, guid: b5bf97be4c31861438ca7951f555b08e, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 072fe68dcac296d499107540be2b8e2b, type: 2}

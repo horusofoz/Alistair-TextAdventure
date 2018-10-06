@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fecce3923494e45beb4c7c44e98a36, type: 3}
+  m_Name: K1b - Help rebuild
+  m_EditorClassIdentifier: 
+  storyText: "Tears fall from your eyes but you refuse to cry. \n\nFeeling betrayed
+    by these men but knowing they are right, you  turn and begin walking back to your
+    home. Your parents bodies deserve a decent burial.\n\nYou remember your father's
+    sword in the chest under his bed. You will claim it and train every day until
+    you are ready to go after the raiders and save your sister.\n\nYou will also train
+    the stronger children so you know they'll be ready if raiders come again.\n\r\nThus
+    begins the tale of Alistair."
+  actionText: 1) End game
+  image: {fileID: 21300024, guid: ccbcacbf3c6c21b4bbf46b02fe7bf64d, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 20be1182d6306114e945307f2b8f1493, type: 2}

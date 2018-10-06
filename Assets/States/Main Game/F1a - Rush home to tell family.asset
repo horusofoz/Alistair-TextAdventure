@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fecce3923494e45beb4c7c44e98a36, type: 3}
+  m_Name: F1a - Rush home to tell family
+  m_EditorClassIdentifier: 
+  storyText: 'You break into a sprint towards your home.
+
+
+    More of the wooden houses appear to be taken flame.
+
+
+    You can still hear screams but have yet to see an attacker.
+
+
+    You keep running hoping you''ll make it home in time.'
+  actionText: 1) Keep running
+  image: {fileID: 21300000, guid: b5bf97be4c31861438ca7951f555b08e, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: b45c411e3f0c88a4696350343a62f671, type: 2}

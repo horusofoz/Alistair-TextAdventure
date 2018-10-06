@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fecce3923494e45beb4c7c44e98a36, type: 3}
+  m_Name: K1a - Chase the raiders
+  m_EditorClassIdentifier: 
+  storyText: "Bardoc tries to warn you that you'll be killed but you are enraged and
+    nearly attack him before remembering seeing him kill half a dozen men with his
+    sword.\r\n\r\nYou deafen your ears to Sarah's pleas and set out on your own.\r\n\r\nThus
+    begins the tale of Alistair."
+  actionText: 1) End game
+  image: {fileID: 21300000, guid: 0d0d150dac4f881458220e4699da9b8f, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 20be1182d6306114e945307f2b8f1493, type: 2}

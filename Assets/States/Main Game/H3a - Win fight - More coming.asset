@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fecce3923494e45beb4c7c44e98a36, type: 3}
+  m_Name: H3a - Win fight - More coming
+  m_EditorClassIdentifier: 
+  storyText: 'You and the the raider are running at each other at full tilt when he
+    begins to swing his sword back for an overhand strike.
+
+
+    He underestimated your brazen anger as you launch yourself at him below the swing
+    and slide your small blade back and forth into his torse and neck.
+
+
+    By the time you both hit the ground, your hands and clothes are drenched in blood.
+    You see he is dead or near enough to no longer be a threat.
+
+
+    You look up and see more scum are running towards you now. They''ve got shields
+    ready and are coming at you in a coordinated rush.'
+  actionText: '1) Pickup the fallen raider''s sword and charge
+
+    2) The cooling blood on your hands has snapped you from your rage state. There
+    is too many top fight at once. You turn and sprint towards the forest.'
+  image: {fileID: 21300000, guid: 91f6e1e2a4cb0644f9c76a4b850917b0, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: d9aa085da099d6a48a2a1aae84a38d78, type: 2}
+  - {fileID: 11400000, guid: b87427b6a5d9a4a45a486ddd51a00feb, type: 2}

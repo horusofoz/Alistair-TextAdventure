@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fecce3923494e45beb4c7c44e98a36, type: 3}
+  m_Name: I2a - Scout area
+  m_EditorClassIdentifier: 
+  storyText: "With the children quieted you scout the village from the trees\r.\n\r\nAfter
+    some time you see Bardoc leading a band of townsmen with bows and clubs towards
+    a knot of raiders who are herding villagers in chains\r."
+  actionText: "1) Charge forward to help\n2) Continue to watch\r\n"
+  image: {fileID: 21300000, guid: 8437624af99153d458b0d42588929121, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 0625b6d531c845d4e852f2d9f34daa9f, type: 2}
+  - {fileID: 11400000, guid: 2e626624775b76e49b58fc53567f37b4, type: 2}

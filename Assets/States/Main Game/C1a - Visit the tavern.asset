@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fecce3923494e45beb4c7c44e98a36, type: 3}
+  m_Name: C1a - Visit the tavern
+  m_EditorClassIdentifier: 
+  storyText: 'You decide to head to tavern for a cold one and to catch up with mates.
+
+
+    Jack and the lads should be back from their drover run and heopfuully have some
+    fun stories to share. Even if they don''t they''ll have the coin to share a coupel
+    jugs.'
+  actionText: 1) Enjoy some time with friends at the tavern.
+  image: {fileID: 21300000, guid: c7b66a0115a0a3c4aa62bdaa077bfbba, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: 602f7807ced48c5499d951cb6ba3128e, type: 2}

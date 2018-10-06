@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fecce3923494e45beb4c7c44e98a36, type: 3}
+  m_Name: I5a - Battle ends
+  m_EditorClassIdentifier: 
+  storyText: "A loud bugle breaks you from your trance. \n\nAt first you don't know
+    what it means but then you see the remaining raiders begin a fighting withdrawal.
+    Your arrows continue their devastation but the raiders with shields raised are
+    able to escape.\n\r\nYou go to run after them but Bardoc grabs you and puills
+    you into a bear hug. He knows what you've seen and done tonight. He tells you
+    he's been there too. He know you want to fight till you fall. But he can't let
+    it happen. The town needs you. Sarah will need you. The children you saved will
+    need you. \n\nAfter a minute you stop thrashing and accept it. bardoc and Sarah's
+    father keep talking to you in soft tones as the group of defenders head to the
+    town centre."
+  actionText: 1) Head towards the town centre.
+  image: {fileID: 21300000, guid: 3b60d3e6b50353b408a8b42cc0df9773, type: 3}
+  nextStates:
+  - {fileID: 11400000, guid: bc27901031800f04093130b235d2aa5c, type: 2}
